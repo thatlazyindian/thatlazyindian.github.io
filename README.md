@@ -1,2 +1,2 @@
-# thatlazyindian.github.io
-This is Nakul Agrawal's personal website.
+# personal-website
+This repository contains files for my personal website.
