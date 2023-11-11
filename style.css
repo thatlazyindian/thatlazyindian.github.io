@@ -3,6 +3,8 @@
 body {
 font-family: Arial, sans-serif;
 background-color: #f8f8f8;
+color: #353535;
+padding: 20 10px; /* The first value is for top and bottom, the second value is for left and right */  
 }
 
 .container {
