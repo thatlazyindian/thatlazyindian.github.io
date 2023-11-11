@@ -19,9 +19,11 @@
             font-family: Arial, sans-serif;
             }
             .container {
-            display: flex;
-            width: 60%;
             margin: 0 auto;
+            width: 100%;
+            max-width: 1200px; /* prevents the container from getting too wide on large screens */
+            margin: auto; /* This centers the container */
+            padding: 20px; /* Optional: adds some space inside the container */
             }
             h1 {
             color: #333;
@@ -48,14 +50,17 @@
             margin-bottom: 5px;
             } */
         </style>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Responsive meta tag   -->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         
 
     </head>
 <body>
     <div class="navbar">
         <a href="/">nakul agrawal</a>
-        <a href="/blog">blog</a>
+        <!-- <a href="/blog">blog</a> -->
+        <a href="/blog">blog(tbd)</a>
     </div>
 
     <div class="container">
