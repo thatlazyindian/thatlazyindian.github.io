@@ -1,0 +1,51 @@
+
+            
+body {
+font-family: Arial, sans-serif;
+background-color: #f8f8f8;
+}
+
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 700px; /* prevents the container from getting too wide on large screens */
+margin: auto; /* This centers the container */
+/* padding: 20px;*/ /* Optional: adds some space inside the container */
+}
+
+h1 {
+color: #333;
+}
+
+a {
+text-decoration: none;
+color: #0077cc;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.navbar {
+/* display: flex; */
+justify-content: space-between;
+/* padding: 10px 20px; */
+}
+
+.name {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.blog {
+    text-decoration: none;
+    color: #333;
+}
+/* .social-links, .contact, .about-site {
+list-style: none;
+padding: 0;
+}
+.social-links li, .contact li, .about-site li {
+margin-bottom: 5px;
+} */
