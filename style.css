@@ -1,10 +1,16 @@
 
             
 body {
+line-height: 1.5;
+-webkit-text-size-adjust: 100%;
+-moz-tab-size: 4;
+-o-tab-size: 4;
+tab-size: 4;
 font-family: Arial, sans-serif;
+font-feature-settings:normal;
 background-color: #f8f8f8;
-color: #353535;
-padding: 20 10px; /* The first value is for top and bottom, the second value is for left and right */  
+color: #686460;
+padding: 2 1rem; /* The first value is for top and bottom, the second value is for left and right */  
 }
 
 .container {
@@ -13,10 +19,6 @@ width: 100%;
 max-width: 700px; /* prevents the container from getting too wide on large screens */
 margin: auto; /* This centers the container */
 /* padding: 20px;*/ /* Optional: adds some space inside the container */
-}
-
-h1 {
-color: #333;
 }
 
 a {
