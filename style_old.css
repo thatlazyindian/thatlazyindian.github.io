@@ -1,0 +1,44 @@
+
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-feature-settings:normal;
+    color: #686460;
+    background-color: #f8f8f8;
+    padding: 2 1rem
+}
+
+body {
+    margin: 0;
+    line-height:inherit
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px; /* prevents the container from getting too wide on large screens */
+    margin: auto; /* This centers the container */
+    /* padding: 20px;*/ /* Optional: adds some space inside the container */
+    }
+    
+    a {
+    text-decoration: none;
+    color: #0077cc;
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    }
+    
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .name {
+        color: #333;
+    }    
