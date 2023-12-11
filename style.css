@@ -23,6 +23,14 @@ body {
     line-height:inherit
 }
 
+.about-me-image {
+    max-width: 100%; /* Ensures image is no larger than its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra space beneath the image */
+    margin-left: auto; /* Centers image horizontally */
+    margin-right: auto;
+}
+
 hr {
     height: 0;
     color: inherit;
